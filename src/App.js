@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import ClassProps from "./ClassProps";
+import FuncProps from "./FuncProps";
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <ClassProps name="Pratik" place="Dapoli"> <p>This is child Component</p> </ClassProps>
       <ClassProps name="Pratik" place="Shiralla"> <button>Click</button> </ClassProps>
       <ClassProps name="Pratik" place="Mumbai"/>
+      <FuncProps name="Priya" place="Bhiwani"/>{" "}
+
     </div>
   );
 }
