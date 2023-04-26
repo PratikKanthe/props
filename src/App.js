@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1> React Props</h1>
-      <ClassProps />
+      <ClassProps name="Pratik"/>
     </div>
   );
 }
