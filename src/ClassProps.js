@@ -5,7 +5,7 @@ class ClassProps extends Component {
     return (
       <div>
         <h3>Hello {this.props.name}, from {this.props.place} Welcome! lets start with props</h3>
-        <p> {this.props.children} </p>
+        {this.props.children}
       </div>
     )
   }
