@@ -4,7 +4,7 @@ class ClassProps extends Component {
   render() {
     return (
       <div>
-        <h3>Hello {this.props.name}, lets start with props</h3>
+        <h3>Hello {this.props.name}, from {this.props.place} Welcome! lets start with props</h3>
       </div>
     )
   }
