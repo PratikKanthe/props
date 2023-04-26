@@ -11,7 +11,6 @@ function App() {
       <ClassProps name="Pratik" place="Shiralla"> <button>Click</button> </ClassProps>
       <ClassProps name="Pratik" place="Mumbai"/>
       <FuncProps name="Priya" place="Bhiwani"/>{" "}
-
     </div>
   );
 }
