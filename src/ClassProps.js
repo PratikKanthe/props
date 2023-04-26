@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 
-export class ClassProps extends Component {
+class ClassProps extends Component {
   render() {
     return (
-      <div>ClassProps</div>
+      <div>
+        <h3>Hello, lets start with props</h3>
+      </div>
     )
   }
 }
